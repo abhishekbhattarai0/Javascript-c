@@ -1,21 +1,7 @@
 
-// let form= document.querySelector('form');
-
-// form.addEventListener('submit',function(e){
-//     e.preventDefault()
-
-//     let height=(document.querySelector('#height').value);
-//     let weight=(document.querySelector('#weight').value);
-//     let result=(document.querySelector('#result').value);
-
-//     if(height==='' ||height<0 || isNaN(height)){
-//         result.innerHTML=`Please enter a valid number ${height}`;
-//     }
-// })
 
 const form = document.querySelector('form');
-// this usecase will give you empty
-// const height = parseInt(document.querySelector('#height').value)
+
 
 form.addEventListener('submit', function (e) {
   e.preventDefault();
